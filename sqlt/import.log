@@ -1,0 +1,52 @@
+;;; 
+Import: Release 11.2.0.1.0 - Production on Sun Oct 21 19:31:25 2018
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Master table "SYSTEM"."SYS_IMPORT_FULL_01" successfully loaded/unloaded
+Starting "SYSTEM"."SYS_IMPORT_FULL_01":  system/******** DIRECTORY=DATA_DIR DUMPFILE=user01.dmp 
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+. . imported "USER01"."SALES"                            29.62 MB  918843 rows
+. . imported "USER01"."MCUSTSUM"                         19.17 MB  918843 rows
+. . imported "USER01"."CUSTOMERS"                        9.853 MB   55500 rows
+. . imported "USER01"."CUSTS"                            7.628 MB   55500 rows
+. . imported "USER01"."COSTS"                            2.419 MB   82112 rows
+. . imported "USER01"."TIMES"                            380.8 KB    1826 rows
+. . imported "USER01"."PROMOTIONS"                       58.89 KB     503 rows
+. . imported "USER01"."CHANNELS"                         7.257 KB       5 rows
+. . imported "USER01"."COUNTRIES"                        10.21 KB      23 rows
+. . imported "USER01"."COUNTRY"                          6.281 KB      25 rows
+. . imported "USER01"."DEPARTMENTS"                      7.015 KB      27 rows
+. . imported "USER01"."DEPT"                             5.937 KB       4 rows
+. . imported "USER01"."EMP"                              8.570 KB      14 rows
+. . imported "USER01"."EMPLOYEE"                         16.80 KB     107 rows
+. . imported "USER01"."EMPLOYEES"                        16.81 KB     107 rows
+. . imported "USER01"."EMP_KIND"                             9 KB      14 rows
+. . imported "USER01"."EMP_KIND1"                        5.921 KB       4 rows
+. . imported "USER01"."EMP_KIND2"                        6.062 KB      10 rows
+. . imported "USER01"."FAMILY"                           5.578 KB       9 rows
+. . imported "USER01"."JOBS"                             6.992 KB      19 rows
+. . imported "USER01"."JOB_HISTORY"                      7.054 KB      10 rows
+. . imported "USER01"."LOCATIONS"                        8.273 KB      23 rows
+. . imported "USER01"."ORDERS"                           12.39 KB     105 rows
+. . imported "USER01"."ORDER_ITEMS"                      20.88 KB     665 rows
+. . imported "USER01"."PRODUCTS"                         26.18 KB      72 rows
+. . imported "USER01"."REGIONS"                          5.484 KB       4 rows
+. . imported "USER01"."SALARY"                           7.640 KB      70 rows
+. . imported "USER01"."SALES_PLAN"                       6.593 KB      12 rows
+. . imported "USER01"."SALES_RESULT"                     6.562 KB      11 rows
+. . imported "USER01"."SALGRADE"                         5.867 KB       5 rows
+. . imported "USER01"."WISHLIST"                         25.21 KB     642 rows
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Job "SYSTEM"."SYS_IMPORT_FULL_01" successfully completed at 19:31:35
