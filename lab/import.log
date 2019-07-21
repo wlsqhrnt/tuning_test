@@ -1,0 +1,58 @@
+;;; 
+Import: Release 11.2.0.2.0 - Production on 월 6월 25 09:21:09 2018
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+Master table "SYSTEM"."SYS_IMPORT_FULL_01" successfully loaded/unloaded
+Starting "SYSTEM"."SYS_IMPORT_FULL_01":  system/******** directory=data_dir dumpfile=labs.dmp 
+Processing object type SCHEMA_EXPORT/USER
+ORA-31684: Object type USER:"TEST" already exists
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+. . imported "TEST"."SALES"                              2.569 MB  913004 rows
+. . imported "TEST"."CUSTS"                              1.890 MB   55500 rows
+. . imported "TEST"."TIMES"                              47.65 KB    1826 rows
+. . imported "TEST"."PRICE_HIST"                         54.56 KB    7085 rows
+. . imported "TEST"."SALES_VIEW"                         50.48 KB    3186 rows
+. . imported "TEST"."CUSTOMERS"                          27.01 KB     319 rows
+. . imported "TEST"."PROMOTIONS"                         13.39 KB     503 rows
+. . imported "TEST"."SALES_INFO"                         8.828 KB    1060 rows
+. . imported "TEST"."PRODUCTS"                           10.46 KB     288 rows
+. . imported "TEST"."WISHLIST"                           12.65 KB     642 rows
+. . imported "TEST"."ORDER_ITEMS"                        8.906 KB     665 rows
+. . imported "TEST"."SOURCE_DATA"                        7.843 KB     212 rows
+. . imported "TEST"."PRODS"                              7.437 KB      72 rows
+. . imported "TEST"."ORDERS"                             7.007 KB     105 rows
+. . imported "TEST"."EMPLOYEES"                          6.484 KB      20 rows
+. . imported "TEST"."COUNTRY"                            6.117 KB      23 rows
+. . imported "TEST"."RETIRED_EMP"                        6.007 KB       6 rows
+. . imported "TEST"."EMP"                                5.640 KB      14 rows
+. . imported "TEST"."LOCATIONS"                          5.460 KB       5 rows
+. . imported "TEST"."ORDER_CANCEL"                       5.398 KB      30 rows
+. . imported "TEST"."EMP_DATE"                           5.398 KB      14 rows
+. . imported "TEST"."DORMANT_HIST"                       5.718 KB      64 rows
+. . imported "TEST"."JOB_HISTORY"                        5.304 KB      10 rows
+. . imported "TEST"."JOBS"                               5.328 KB      12 rows
+. . imported "TEST"."EMP_VIEW"                           5.117 KB      11 rows
+. . imported "TEST"."BLACKLIST"                          5.132 KB       8 rows
+. . imported "TEST"."DEPARTMENTS"                        5.195 KB       8 rows
+. . imported "TEST"."CHANNELS"                           4.984 KB       5 rows
+. . imported "TEST"."COUNTRIES"                          4.976 KB       4 rows
+. . imported "TEST"."DEPT"                               4.992 KB       4 rows
+. . imported "TEST"."FLIGHTS"                            5.015 KB       3 rows
+. . imported "TEST"."JOB_GRADES"                         4.929 KB       6 rows
+. . imported "TEST"."SALGRADE"                           4.929 KB       5 rows
+. . imported "TEST"."REGIONS"                            4.851 KB       4 rows
+. . imported "TEST"."MGR_HIST"                               0 KB       0 rows
+. . imported "TEST"."SAL_HIST"                               0 KB       0 rows
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Job "SYSTEM"."SYS_IMPORT_FULL_01" completed with 1 error(s) at 09:21:45

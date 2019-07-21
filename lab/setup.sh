@@ -1,0 +1,1 @@
+sqlplus /nolog @setup_linux.sql
